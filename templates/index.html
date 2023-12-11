@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/details.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+</head>
+<body style="background: linear-gradient(to right, #706cce, #17023b);">
+    <div class="navbar" style="background: transparent">
+        <a class="navbar-brand text-light" href="Home.html" style="padding-left: 30px;"><h1>InsightEdHub</h1></a>
+        <nav class="navbar navbar-expand-lg bg-tertiary float-end"style="padding-right: 50px;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="Aboutus.html">About Us</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact Us</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <h1 style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #fff;">DETAILS OF THE STUDENT</h1>
+        <div class="formbold-main-wrapper" >
+            <div class="formbold-form-wrapper" style="border-color:rgb(14, 4, 41); background-color: linear-gradient(to right, #706cce, #17023b); border-radius: 5 px; ">
+              <form action="" method="POST" enctype="multipart/form-data">
+                        <table>
+                            <tr>
+                                <td colspan="4" align="center" style="font-weight: bold; font-size: 25px; padding-top: 30px;">Child Details</td>
+                            </tr>
+                            <tr>
+                                <th><label for="school">School</label></th>
+                                <th><label for="study">Study Time</label></th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="text" name="school" id="school" placeholder="School"></td>
+                                <td><select name="study" id="study" class="text">
+                                    <option value="">Choose the Studytime</option>
+                                    <option value="1">less than 2hr'</option>
+                                    <option value="2">2-5 hr</option>
+                                    <option value="3">5-10 hr</option>
+                                    <option value="4">more than 10 hr</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <th><label for="failure">Failures</label></th>
+                                <th><label for="higher">Higher</label></th>
+                            </tr>
+                            <tr>
+                                <td><input type="number" name="failure" class="text" id="failure" placeholder="Failures"></td>  
+                                <td><input type="radio" name="higher" id="higher">Yes
+                                    <input type="radio" name="higher" id="higher">No</td> 
+                                
+                            </tr>
+                            <tr>
+                                <th><label for="absence">Absences</label></th>
+                                <th><label for="goout">Go Out</label></th>    
+                            </tr>
+                            <tr>
+                                <td><input type="number" class="text" name="absence" id="absence"></td>
+                                <td><select name="goout" id="goout" class="text">
+                                    <option value="">Go out</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select></td> 
+                          </tr>
+                            <tr>
+                                <th><label for="g1">G1</label></th>
+                                <th><label for="g2">G2</label></th>
+                            </tr>
+                            <tr>
+                                 <td><input type="number" class="text" name="g1" id="g1"></td> 
+                                 <td><input type="number" class="text" name="g2" id="g2"></td> 
+                            </tr>
+                            <tr>
+                                
+                                <th><label for="g3">G3</label></th>
+                                <th><label for="travel">Travel</label></th>
+                            </tr>
+                            <tr>  
+                                <td><input type="number" class="text" name="g3" id="g3"></td>
+                                <td><select name="travel" class="text" id="travel">
+                                    <option value="">Choose the Traveltime</option>
+                                    <option value="1">less than 15min'</option>
+                                    <option value="2">15-30 min</option>
+                                    <option value="3">30-1 hr</option>
+                                    <option value="4">more than 1 hr</option>
+                                </select></td>  
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center" style="font-weight: bold; font-size: 25px; padding-top: 30px;">Father Details</td>
+                            </tr>
+                            <tr>
+                                <th><label for="feducation">Education</label></th>
+                            </tr>
+                            <tr>
+                                <td><select name="feducation" id="feducation" class="text">
+                                    <option value="">Choose the Education</option>
+                                    <option value="1">Primary Education</option>
+                                    <option value="2">5-9th Grade</option>
+                                    <option value="3">Secondary Education</option>
+                                    <option value="4">Higher Education</option>
+                                </select></td>
+                                
+                            </tr>
+                            
+                
+                            <tr>
+                                <th><label for="fdalc">Dalc</label></th>
+                                <th><label for="fwalc">Walc</label></th>
+                            </tr>
+                            <tr>
+                                <td><select name="fdalc" id="fdalc" class="text"> 
+                                    <option value="">Dalc</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select></td>   
+                                <td><select name="fwalc" id="fwalc" class="text">
+                                    <option value="">Walc</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select></td>   
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center" style="font-weight: bold; font-size: 25px; padding-top: 30px;">Mother Details</td>
+                            </tr>
+                            <tr>
+                                <th><label for="meducation">Education</label></th>
+                            </tr>
+                            <tr>
+                                <td><select name="meducation" id="meducation" class="text">
+                                    <option value="">Choose the Education</option>
+                                    <option value="1">Primary Education</option>
+                                    <option value="2">5-9th Grade</option>
+                                    <option value="3">Secondary Education</option>
+                                    <option value="4">Higher Education</option>
+                                </select></td>
+                            </tr>
+                            
+                
+                            <tr>
+                                <th><label for="mdalc">Dalc</label></th>
+                                <th><label for="mwalc">Walc</label></th>
+                            </tr>
+                            <tr>
+                                <td><select name="mdalc" id="mdalc" class="text"> 
+                                    <option value="">Dalc</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select></td>   
+                                <td><select name="mwalc" id="mwalc" class="text">
+                                    <option value="">Walc</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select></td>   
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="2" align="center" style="padding-top: 30px;"><input type="submit" class="text"></td>
+                            </tr>
+                        </table>
+              </form>
+              {% if prediction is defined %}
+            <p>Prediction Result: {{ prediction }}</p>
+        {% endif %}
+            </div>
+          </div>
+    
+    
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          
+
+    
+</body>
+</html>

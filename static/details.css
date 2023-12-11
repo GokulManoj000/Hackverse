@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+  }
+  .formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    background: linear-gradient(to right, #706cce, #17023b);
+  }
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    height: 1560px;
+    max-width: 750px;
+    width: 100%;
+    background: #fff;
+    border-width: 10px;
+    border-radius: 20px;
+  }
+
+  .table{
+        padding-left: 500px;
+  }
+
+  th{
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+
+  td{
+    padding-left: 100px;
+  }
+
+.text{
+    height:50px;
+    width: 200px;
+    border-radius: 10px;
+
+}
